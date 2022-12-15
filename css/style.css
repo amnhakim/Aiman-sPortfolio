@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625em;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #57a4a4;
+  font-size: 1.8rem;
+  margin: 5px auto 5px auto;
+}
+
+p {
+  font-size: 1em;
+}
+
+hr {
+  width: 4%;
+  border-style: none;
+  border-top: 10px dotted #c7cccc;
+  margin: 100px auto;
+}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+  *zoom: 1;
+}
+
+/***************** Top Container *******************/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.mountain {
+  width: 800px;
+  height: 500px;
+}
+
+.cloud-top {
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  right: 420px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  width: 200px;
+  left: 380px;
+}
+
+/***************** Profile Container *******************/
+.profile {
+  margin: 100px auto;
+}
+
+.profile a {
+  text-decoration: none;
+  color: #66bfbf;
+}
+
+.profile a:hover {
+  color: #11999e;
+}
+
+.books-teaching {
+  width: 50%;
+  margin: 50px auto 70px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.books-teaching ul {
+  width: 40%;
+  margin: auto;
+  text-align: justify;
+}
+
+.profile h3 {
+  font-size: 1.4rem;
+}
+
+/***************** Skill Container *******************/
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row img.skill-coding {
+  width: 40%;
+}
+
+.skill-row img.skill-html5 {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row img.skill-css {
+  margin-bottom: 40px;
+}
+
+/***************** Contact Me Section *******************/
+.contact-me {
+  line-height: 2;
+  margin: 120px auto 180px auto;
+}
+
+.contact-me p {
+  margin-bottom: 20px;
+}
+
+.contact-me h3 {
+  font-size: 1.3rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #3498db);
+  background-image: -moz-linear-gradient(top, #30e3cb, #3498db);
+  background-image: -ms-linear-gradient(top, #30e3cb, #3498db);
+  background-image: -o-linear-gradient(top, #30e3cb, #3498db);
+  background-image: linear-gradient(to bottom, #30e3cb, #3498db);
+  text-decoration: none;
+}
+/* Bottom Container */
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 60px;
+  line-height: 2;
+}
+
+.bottom-container p {
+  color: #eaf6f6;
+  margin: 10px auto 0 40px;
+}
+
+.footer-link {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #11999e;
+}
+
+.footer-link:hover {
+  color: #eaeaf6;
+}
